@@ -1,5 +1,5 @@
 import { Paths } from "./types";
-import { IconLogin, IconAnalyze, IconUserPlus } from '@tabler/icons-react';
+import { IconFingerprint, IconAnalyze, IconUserPlus } from '@tabler/icons-react';
 
 export const paths: Paths[] = [
     {
@@ -19,7 +19,7 @@ export const paths: Paths[] = [
     {
         endpoint: '/dashboard/login',
         label: 'Login',
-        icon: IconLogin,
+        icon: IconFingerprint,
         header: 'Sign in',
         footer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     }

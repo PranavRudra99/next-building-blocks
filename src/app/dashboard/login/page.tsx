@@ -1,5 +1,5 @@
 'use client'
-import { Button, Input, Grid } from '@mantine/core'
+import { Button, Input, Grid, Card } from '@mantine/core'
 import { useForm, SubmitHandler } from 'react-hook-form'
 
 type LoginInputs = {
@@ -20,23 +20,25 @@ const Login = (): JSX.Element => {
     }
 
     return (
-        <form onSubmit={handleSubmit(handleLogin)}>
-            <Grid className='pl-1 pr-1'>
-                <Grid.Col>
-                    <Input.Wrapper label='Username'>
-                        <Input placeholder='Enter user name' {...register('username', { required: true })}></Input>
-                    </Input.Wrapper>
-                </Grid.Col>
-                <Grid.Col>
-                    <Input.Wrapper label='Password'>
-                        <Input type='password' placeholder='Enter password' {...register('password', { required: true })}></Input>
-                    </Input.Wrapper>
-                </Grid.Col>
-                <Grid.Col className='center mt-1'>
-                    <Button fullWidth type='submit'>Submit</Button>
-                </Grid.Col>
-            </Grid>
-        </form>
+        <Card shadow='sm' padding='xl'>
+            <form onSubmit={handleSubmit(handleLogin)}>
+                <Grid className='pl-1 pr-1'>
+                    <Grid.Col>
+                        <Input.Wrapper label='Email'>
+                            <Input placeholder='Enter email' {...register('username', { required: true })}></Input>
+                        </Input.Wrapper>
+                    </Grid.Col>
+                    <Grid.Col>
+                        <Input.Wrapper label='Password'>
+                            <Input type='password' placeholder='Enter password' {...register('password', { required: true })}></Input>
+                        </Input.Wrapper>
+                    </Grid.Col>
+                    <Grid.Col className='center mt-1'>
+                        <Button fullWidth type='submit'>Submit</Button>
+                    </Grid.Col>
+                </Grid>
+            </form>
+        </Card>
     )
 }
 
