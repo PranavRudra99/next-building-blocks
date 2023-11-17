@@ -9,15 +9,18 @@ const DashboardLayout = ({
 }) => {
     return (
         <div className="d-flex flex-col full-height">
-            <div className="flex-row">
-                <div className="p-abs">
+            <div className="d-grid truly-center">
+                <div>
                     <Navigation />
                 </div>
-                <div className="horizontal-center vertical-center">
+                <div className="vertical-center">
                     <IconPuzzleFilled size={24} />
                     <div className="pt-0">
                         <h1 className="primary-header">Building Blocks</h1>
                     </div>
+                </div>
+                <div>
+                    {/*Dummy div - required for centering primary header*/}
                 </div>
             </div>
             <div className="center flex-grow-1">
