@@ -22,10 +22,26 @@
     margin-top: auto
 }
 
+.ml-auto{
+    margin-left: auto;
+}
+
+.mb-auto{
+    margin-bottom: auto;
+}
+
+.mr-auto{
+    margin-right: auto;
+}
+
 .mb-0{
     margin-bottom: 0;
 }
 
 .mb-1{
     margin-bottom: 1rem;
+}
+
+.margin-none{
+    margin: 0;
 }

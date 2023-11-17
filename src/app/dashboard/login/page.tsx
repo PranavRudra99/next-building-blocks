@@ -35,7 +35,7 @@ const Login = (): JSX.Element => {
     }
 
     return (
-        <Card shadow='sm' padding='xl'>
+        <Card radius='md' shadow='sm' padding='xl'>
             <h2 className='login-header center mb-1'>Welcome back!</h2>
             <form onSubmit={handleSubmit(handleLogin)}>
                 <Grid className='pl-1 pr-1'>
