@@ -39,7 +39,7 @@ const Login = (): JSX.Element => {
     return (
         <div>
             <div className='mb-1'>
-                <Card radius='md' shadow='sm' padding='xl'>
+                <Card radius='md' shadow='lg' padding='xl'>
                     <h2 className='login-header center mb-1'>{content.loginForm.welcome}</h2>
                     <form onSubmit={handleSubmit(handleLogin)}>
                         <Grid className='pl-1 pr-1'>
@@ -72,7 +72,7 @@ const Login = (): JSX.Element => {
                 </Card>
             </div>
             <div className='mt-1'>
-                <Card radius='md' shadow='sm' padding='lg'>
+                <Card radius='md' shadow='lg' padding='lg'>
                     <div className='center'>
                         <p className='margin-none pr-1'>{content.registrationPrompt.newUser}</p>
                         <Link href='/dashboard/register'>
