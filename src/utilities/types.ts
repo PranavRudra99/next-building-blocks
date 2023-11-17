@@ -16,3 +16,8 @@ export interface GlobalContextInterface {
     selectedPage: number
     setSelectedPage: Dispatch<number>
 }
+
+export enum LoginInputs {
+    email = 'email',
+    password = 'password'
+}
