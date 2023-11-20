@@ -1,4 +1,4 @@
-import { Dispatch } from "react"
+import { Dispatch } from 'react'
 
 export interface Paths {
     endpoint: string,
@@ -15,4 +15,9 @@ export interface ContextProviderInterface {
 export interface GlobalContextInterface {
     selectedPage: number
     setSelectedPage: Dispatch<number>
+}
+
+export enum LoginInputs {
+    email = 'email',
+    password = 'password'
 }

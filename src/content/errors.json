@@ -1,0 +1,10 @@
+{
+    "email": {
+        "pattern": "Enter valid email",
+        "required": "Email required"
+    },
+    "password": {
+        "pattern": "Enter valid password",
+        "required": "Password required"
+    }
+}

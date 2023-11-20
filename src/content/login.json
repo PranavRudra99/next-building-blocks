@@ -1,0 +1,14 @@
+{
+    "loginForm": {
+        "welcome": "Welcome back!",
+        "submit": "Submit",
+        "email": "Email",
+        "password": "Password",
+        "emailPrompt": "Enter Email",
+        "passwordPrompt": "Enter Password"
+    },
+    "registrationPrompt": {
+        "newUser": "Not a user yet? No worries!",
+        "register": "Sign up"
+    }
+}
