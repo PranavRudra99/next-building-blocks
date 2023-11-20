@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
-        <MantineProvider defaultColorScheme='auto'>
+        <MantineProvider defaultColorScheme='dark'>
           {children}
         </MantineProvider>
       </body>
