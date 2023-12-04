@@ -17,6 +17,11 @@ export interface GlobalContextInterface {
     setSelectedPage: Dispatch<number>
 }
 
+export interface stepperColors {
+    active: string,
+    inactive: string
+}
+
 export enum LoginInputs {
     email = 'email',
     password = 'password'

@@ -1,0 +1,13 @@
+{
+    "loginPrompt": {
+        "existingUser": "Already have an account?",
+        "login": "Sign in"
+    },
+    "stepper":{
+        "steps": ["About", "Account", "Register"],
+        "backgroundColors": {
+            "active": "#1D72FE",
+            "inactive": "#868E96"
+        }
+    }
+}

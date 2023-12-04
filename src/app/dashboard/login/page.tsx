@@ -27,7 +27,7 @@ const Login = (): JSX.Element => {
     }
 
     const getErrorMessage = (error: FieldError, touchedField: boolean = false, input: LoginInputs): string => {
-        let response = '';
+        let response = ''
         if (touchedField && error.type === 'required') {
             response = errorMessages[input].required
         }

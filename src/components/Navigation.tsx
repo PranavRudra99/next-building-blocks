@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Navigation = (): JSX.Element => {
     const [opened, { toggle }] = useDisclosure()
     const handleClick = () => {
-        toggle();
+        toggle()
     }
 
     return (

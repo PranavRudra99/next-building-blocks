@@ -10,9 +10,9 @@ const DashboardLayout = ({
 }: {
     children: React.ReactNode
 }) => {
-    const colorScheme = useColorScheme();
-    const { setColorScheme } = useMantineColorScheme();
-    const computedColorScheme = useComputedColorScheme(colorScheme, { getInitialValueInEffect: true });
+    const colorScheme = useColorScheme()
+    const { setColorScheme } = useMantineColorScheme()
+    const computedColorScheme = useComputedColorScheme(colorScheme, { getInitialValueInEffect: true })
     return (
         <div className='d-flex flex-col full-height'>
             <div className='d-grid truly-center'>
@@ -25,7 +25,7 @@ const DashboardLayout = ({
                         <h1 className='margin-none'>{content.primaryHeader}</h1>
                     </div>
                 </div>
-                <div className='vertical-center p-5p ml-auto'>
+                <div className='vertical-center p-all-5px ml-auto'>
                     <ActionIcon
                         onClick={() => setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')}
                         variant='default'

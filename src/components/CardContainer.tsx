@@ -1,4 +1,4 @@
-import { Card } from "@mantine/core";
+import { Card } from "@mantine/core"
 
 const CardContainer = ({children}: {children: React.ReactNode}): JSX.Element => {
     return (
@@ -10,4 +10,4 @@ const CardContainer = ({children}: {children: React.ReactNode}): JSX.Element => 
     )
 }
 
-export default CardContainer;
+export default CardContainer

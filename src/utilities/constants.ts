@@ -1,5 +1,5 @@
-import { Paths } from './types';
-import { IconFingerprint, IconAnalyze, IconUserPlus } from '@tabler/icons-react';
+import { Paths } from './types'
+import { IconFingerprint, IconAnalyze, IconUserPlus } from '@tabler/icons-react'
 
 export const paths: Paths[] = [
     {
